@@ -43,7 +43,25 @@ nav a:hover {
 article {
     padding: 1rem;
 }
+.welcometext {
+    Display: flex ;
+    flex-flow: row wrap;
+    /* border:solid blue; */
+    justify-content: center;
+    padding: 1rem;
+}
+.joinusandpic {
+    Display: flex ;
+    flex-flow: row wrap;
+    /*border:solid green;*/
+    justify-content: center;
 
+}
+.smallimg {
+    Display: flex ;
+    justify-content: center;
+    /* border:solid greenyellow; */
+}
 .card {
     border-radius: 10px;
     border: 2px solid #004369;
@@ -134,6 +152,25 @@ footer a {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+    }
+    .welcometext {
+        Display: flex ;
+        flex-flow: column wrap;
+        /* border:solid blue; */
+        max-width: 30%;
+        justify-content:center;
+        padding: 1rem;
+    }
+    .joinusandpic {
+        Display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        /* border:solid green; */
+    }
+    .mediumimg {
+        flex-basis: 30%;
+        margin: 0;
+        /* border:solid greenyellow; */
     }
     .card-container {
         display: flex;
